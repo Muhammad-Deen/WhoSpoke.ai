@@ -1,8 +1,24 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
     <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
+      
+      <nav className="row-start-1 w-full flex justify-between items-center">
+        <div className="text-xl font-bold">MyApp</div>
+        <div className="flex gap-6">
+          <Link href="/Home" className="hover:underline">
+            Home
+          </Link>
+          <Link href="/Login" className="hover:underline">
+            Login
+          </Link>
+          <Link href="/SignUp" className="hover:underline">
+            Sign Up
+          </Link>
+        </div>
+      </nav>
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
         <Image
           className="dark:invert"
