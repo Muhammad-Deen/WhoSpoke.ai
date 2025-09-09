@@ -6,7 +6,7 @@ export default function Home() {
     <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
       
       <nav className="row-start-1 w-full flex justify-between items-center">
-        <div className="text-xl font-bold">MyApp</div>
+        <div className="text-xl font-bold">Whospoke.ai</div>
         <div className="flex gap-6">
           <Link href="/Home" className="hover:underline">
             Home
