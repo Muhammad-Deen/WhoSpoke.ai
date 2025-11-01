@@ -46,19 +46,19 @@ export default function Page() {
   };
   
   return (
-    <div className="flex min-h-screen bg-[#f4f7ff]">
+    <div className="flex min-h-screen bg-[#EEF3FF]">
       {/*Leftside Logo*/}
       <div className="flex flex-1 flex-col items-center justify-center p-8">
-        <div className="relative w-60 h-60 mb-4">
+        <div className="relative" style={{ width: '50vw', height: '60vh' }}>
           <Image
-            src={"logo2.svg"} // replace with your logo path inside /public/assets
+            src={"logo.svg"} // replace with your logo path inside /public/assets
             alt="Whospoke Logo"
             fill
             className="object-contain"
             priority
           />
         </div>
-        <h2 className="text-4xl font-semibold text-black">whospoke.ai</h2>
+        {/* <h2 className="text-4xl font-semibold text-black">whospoke.ai</h2> */}
       </div>
 
       {/* Right side (signup options) */}
